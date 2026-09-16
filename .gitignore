@@ -17,7 +17,6 @@ __pycache__/
 
 # Streamlit
 .streamlit/secrets.toml
-.streamlit/
 
 # OS generated files
 .DS_Store
