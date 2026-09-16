@@ -1,0 +1,120 @@
+14: # Deep learning model imports
+21: # LLM engine
+28: # Prediction engine (all defensible AI formulas)
+42: # --- PAGE CONFIGURATION ---
+50: # --- PREMIUM GOVERNMENT STYLING ---
+327: #MainMenu { visibility: hidden; }
+333: # ===================== GOVERNMENT HEADER =====================
+353: # ===================== LOAD DATA AND MODELS =====================
+405: # ===================== SIDEBAR =====================
+426: # ===================== PAGE: NATIONAL DASHBOARD =====================
+463: # ---- Charts Row 1 ----
+501: # ---- Charts Row 2 ----
+532: # ---- Intervention Priority ----
+547: # ---- Project Watchlist Table ----
+585: # ===================== PAGE: PROJECT DOCTOR =====================
+616: # KPI Row
+631: # AI Explanation via SHAP
+710: # Recommendations
+742: # ===================== PAGE: FUTURE PREDICTOR (AI) =====================
+748: # Gemini key auto-loaded from .env — no user input needed
+752: # Project selector
+783: # ── DEEP LEARNING PREDICTIONS ──
+784: # Separate flags for LSTM and Transformer (fixes incorrect shared flag)
+809: # ── TAB 1: LSTM Cost Forecast ──
+819: # Build input sequence for this project
+838: # Denormalize: multiply by original cost
+842: # Build month labels
+848: # Confidence bands (±10%)
+853: # Upper band fill
+861: # Main forecast line
+869: # Approved budget line
+873: # Revised budget line
+878: # Current expenditure marker
+897: # Summary callout
+908: # Show demo chart so the UI looks complete
+925: # ── TAB 2: TRANSFORMER Delay Prediction ──
+948: # Gantt-style timeline
+970: # Delay factor breakdown
+1003: # ── TAB 3: LLM COPILOT ──
+1009: # Auto-generate risk summary
+1033: # Q&A Section
+1037: # Quick question buttons
+1050: # Free-text Q&A
+1063: # Clear session state after displaying
+1074: # ===================== PAGE: BENCHMARKING =====================
+1155: # ===================== PAGE: COST OVERRUN ESTIMATOR =====================
+1218: # ---- INPUT FORM ----
+1221: # --- Section 1: Project Identity ---
+1232: # --- Section 2: Budget & Financial Inputs ---
+1256: # --- Section 3: Timeline ---
+1269: # --- Section 4: Risk Factors ---
+1286: # ---- PREDICTION LOGIC ----
+1317: # ---- NEW: Use prediction_engine for all advanced outputs ----
+1381: # ============================================================
+1382: # A. AI PREDICTION OVERVIEW
+1383: # ============================================================
+1416: # ============================================================
+1417: # B. EXPECTED FINAL COST PANEL
+1418: # ============================================================
+1440: # EFC Gauge chart
+1467: # ============================================================
+1468: # C. RISK DRIVERS (SHAP)
+1469: # ============================================================
+1500: # ============================================================
+1501: # D. PROJECT HEALTH SCORE
+1502: # ============================================================
+1538: # ============================================================
+1539: # E. THREE SCENARIOS
+1540: # ============================================================
+1564: # Scenario comparison bar chart
+1582: # ============================================================
+1583: # F. WHAT-IF SIMULATOR
+1584: # ============================================================
+1620: # ============================================================
+1621: # G. AI COST-SAVING RECOMMENDATIONS
+1622: # ============================================================
+1644: # ============================================================
+1645: # H. EARLY WARNING TIMELINE
+1646: # ============================================================
+1681: # ============================================================
+1682: # I. MILESTONE RISK
+1683: # ============================================================
+1697: # ============================================================
+1698: # J. MODEL INFORMATION
+1699: # ============================================================
+1710: # ---- Original summary table (preserved) ----
+1729: # ===================== PAGE: PRE-PROJECT FEASIBILITY =====================
+1735: # ---- Inline CSS for this page ----
+1762: # ===================== INPUT FORM =====================
+1765: # --- Section 1: Project Identity ---
+1782: # --- Section 2: Budget & Scope ---
+1803: # --- Section 3: Cost Components ---
+1824: # --- Section 4: Risk Factors ---
+1844: # ===================== ANALYSIS ENGINE =====================
+1847: # ---- Step indicators ----
+1851: # -- Pull sector-level stats from real data --
+1873: # ---- Location / terrain multiplier ----
+1878: # ---- Duration pressure factor ----
+1879: # Compare proposed duration vs sector average; shorter = higher cost pressure
+1883: # ---- Risk premium factors ----
+1889: # ---- Historical overrun uplift ----
+1890: # Use sector mean overrun to adjust optimistic budget estimates
+1893: # ---- Sector size normalization ----
+1894: # If proposed budget >> sector mean, slight upward pressure from complexity
+1898: # ---- Composite estimated cost ----
+1905: # ---- Cost breakdown ----
+1924: # ---- Feasibility verdict ----
+1945: # ---- Cost-driving factors (normalized 0-1 contribution) ----
+1958: # ---- Recommendations ----
+1990: # Recommended budget
+1997: # ===================== RESULTS DISPLAY =====================
+2001: # -- Verdict card --
+2024: # -- Charts row --
+2071: # -- Budget vs Estimate bar --
+2096: # -- Cost-driving factors --
+2118: # -- Sector benchmark panel --
+2126: # Peer budget distribution
+2141: # -- Recommendations --
+2150: # -- Recommended budget adjustment table --
+2165: # ===================== FOOTER =====================
